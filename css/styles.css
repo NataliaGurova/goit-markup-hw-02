@@ -1,81 +1,179 @@
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
-.header-logo, .footer-logo {
-color: #4D5AE5;
-font-family: Raleway, sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.54px;
-text-transform: uppercase;
-text-decoration: none;
-
+.header-logo,
+.footer-logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .header-logo .logo-part {
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
-.footer-logo .logo-part {
-  color: #F4F4FD;
-}
-.nav-link {
-  color: #2E2F42;
-  font-family: Roboto, sans-serif;
+.nav-list .nav-link {
+  color: #2e2f42;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  
 }
 
-.nav-link:active, .nav-link:focus {
-  color: #404BBF;
+.nav-link:active,
+.nav-link:focus {
+  color: #404bbf;
   text-decoration: underline;
 }
 
 .address-link {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
-.address-link:active, .address-link:focus {
-  color: #404BBF;
+.address-link:active,
+.address-link:focus {
+  color: #404bbf;
+}
+
+.section-top {
+  background-color: #2e2f42;
+
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .top-button {
-  color: #FFF;
-  font-family: Roboto;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.top-button:hover,
+.top-button:focus {
+  border-radius: 4px;
+  background-color: #404bbf;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.strategy-top {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.strategy-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  color: #2e2f42;
+  text-align: center;
+  /* Header 2 */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-top {
+  color: #2e2f42;
+  text-align: center;
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-item .team-text {
+  color: #434455;
+  text-align: center;
+  /* Body */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.photo-title {
+  color: #2e2f42;
+  text-align: center;
+  /* Header 2 */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.photo-top {
+  color: #2e2f42;
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.photo-text {
+  color: #434455;
+  /* Body */
+
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
-  border-radius: 4px;
-  background: #4D5AE5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-.top-button:hover, .top-button:focus {
-  border-radius: 4px;
-  background: #404BBF;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
-
-
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-ul, ol {
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+  /* Body */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+ul {
   list-style-type: none;
 }
